@@ -20,7 +20,7 @@ import (
 func main(){
     key := "id"
     value := "1"
-    example := []byte(`{"name":"fred", "thing":"foo"}`),
+    example := []byte(`{"name":"fred", "thing":"foo"}`)
     println(string(insertjson.Property(key, value, example))
 }
 ```
